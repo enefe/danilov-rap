@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: 'Golos-Regular', 'Comic Sans', sans-serif;
+    background-color: #323131;
+    font-size: 100%;
+    font-weight: normal;
+    min-width: 1280px;
+}

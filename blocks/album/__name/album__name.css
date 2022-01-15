@@ -1,0 +1,9 @@
+.album__name {
+    width: 320px;
+    color: white;
+    color: blueviolet;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 150px auto 5px;
+}

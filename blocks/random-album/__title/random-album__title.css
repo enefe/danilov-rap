@@ -1,0 +1,7 @@
+.random-album__title {
+    font-size: 60px;
+    font-weight: 500;
+    /* color:#ff6666; */
+    color: blueviolet;
+    margin:  100px auto 50px;
+}

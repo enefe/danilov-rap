@@ -1,0 +1,7 @@
+.header {
+    height: 100vh;
+    background-image: url(../../images/backgroundHeader.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

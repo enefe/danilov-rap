@@ -1,0 +1,19 @@
+.random-album__button {
+    margin: auto;
+    padding: 0;
+    color: blueviolet;
+    height: 40px;
+    width: 150px;
+    background-color: #323131;
+    border: 2px solid blueviolet;
+    border-radius: 3%;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.random-album__button:hover {
+    height: 50px;
+    width: 170px;
+    opacity: 0.5;
+    color:blueviolet;
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Golos-Regular';
+    src: url('./fonts/Golos-UI_Regular.woff2') format('woff2'),
+    url('./fonts/Golos-UI_Regular.woff') format('woff');
+    font-weight: 500;
+}

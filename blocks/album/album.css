@@ -1,0 +1,10 @@
+.album {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: 0 0 5px blueviolet;
+    position: relative;
+}

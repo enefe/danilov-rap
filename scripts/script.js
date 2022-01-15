@@ -12,6 +12,7 @@ let button = document.querySelector('.random-album__button');
 let image = document.querySelector('.random-album__image');
 let name = document.querySelector('.random-album__name');
 let artist = document.querySelector('.random-album__artist');
+let link = document.querySelector('.random-album__link');
 
 // Наши альбомы здесь:
 
@@ -19,32 +20,38 @@ let albums = [
     {
         image: 'https://sun9-14.userapi.com/impg/bEag0Qe-CS3otHpbkVqrwNQMFn-Js2rnU3J2rg/ZAWEW7yIs3k.jpg?size=1643x1596&quality=96&sign=70e096ac1dd697057ce8b0f88c31be3b&type=album',
         name: 'кайфовый понедельник',
-        artist: 'хокаге, гар, сёма'
+        artist: 'хокаге, гар, сёма',
+        link: 'https://vk.com/wall-202147655_41'
     },
     {
         image: 'https://sun9-14.userapi.com/impg/r5-bypKH9be64d6H_qfT8CotbGGFyN6zMsWkPQ/tmhCzakZQic.jpg?size=2048x2048&quality=96&sign=9b55aabbd685cd6f9fb9695a5825042d&type=album',
         name: 'сила притяжения',
-        artist: 'сёма'
+        artist: 'сёма',
+        link: 'https://vk.com/music/playlist/-202147655_2_dcb70a775fae9d4574'
     },
     {
         image: 'https://sun9-71.userapi.com/impg/rfbgB3bIHFexeID_fFTdb1EOadNGwmPXo4OpwQ/JAXaM_F8rio.jpg?size=1920x1911&quality=96&sign=d4a5c2b12a31558a916c27148c59681b&type=album',
         name: 'танцы',
-        artist: 'сёма'
+        artist: 'сёма',
+        link: 'https://vk.com/wall-202147655_12'
     },
     {
         image: 'https://sun9-61.userapi.com/impg/qrbLWa2GBzUsSjzexjD3LNrK9fFn35ItywRh8g/Ooz9ZPgzTHU.jpg?size=2160x2160&quality=96&sign=8cd8d6ce69bde87beb2e66c6b1009346&type=album',
         name: 'косилапка',
-        artist: 'сёма'
+        artist: 'сёма',
+        link: 'https://vk.com/music/playlist/-202147655_1_eeb69cad97db02f282'
     },
     {
         image: 'https://sun9-46.userapi.com/impg/rIxMETPnxm-ke8VQlWvwr8U5FAnSHXyCVHNlUg/uGW4yucGGrU.jpg?size=1077x1077&quality=96&sign=f047de6d5af5858aec0523c2da71d3ae&type=album',
         name: 'Ты всё равно вернёшься обратно',
-        artist: 'Hokage'
+        artist: 'Hokage',
+        link: 'https://vk.com/music/playlist/-209844982_1_d99a28c1c258e9a22b'
     },
     {
         image: 'https://sun9-8.userapi.com/impg/WokhwNLrQQNho2mudiwEfUe8LPCFJnkpduT0gg/0_2RKFVEJnA.jpg?size=737x738&quality=96&sign=366ba4abf1b4abbf4981982195caf518&type=album',
         name: 'ну мне завтра с машиной сидеть',
-        artist: 'Hokage feat. сёма'
+        artist: 'Hokage feat. сёма',
+        link: 'https://vk.com/music/playlist/144696400_1_b9547dbbccf1f78463'
     }
 ];
 
@@ -65,5 +72,6 @@ button.addEventListener('click', function () {
     smoothly(image, 'src', randomElement.image);
     smoothly(name, 'textContent', randomElement.name);
     smoothly(artist, 'textContent', randomElement.artist);
+    smoothly(link, 'href', randomElement.link);
 })
 

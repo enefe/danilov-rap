@@ -1,0 +1,7 @@
+.footer__container {
+    border-top: 1px solid rgba(0, 0, 0, .8);
+    width: 1280px;
+    margin: 60px auto 0;
+    display: flex;
+    justify-content: space-between;
+}

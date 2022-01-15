@@ -1,0 +1,9 @@
+.album__date {
+    width: 320px;
+    color: white;
+    color: blueviolet;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0 auto 40px;
+}
