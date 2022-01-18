@@ -8,3 +8,19 @@
     border-radius: 2%;
     position: relative;
 }
+
+@media (max-width: 768px) {
+    .random-album__album {
+        margin: 45px auto 80px;
+        padding: 30px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__album {
+        margin: 25px auto 60px;
+        padding: 20px;
+        width: 300px;
+    }
+}

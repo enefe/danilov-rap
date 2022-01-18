@@ -7,3 +7,12 @@
     font-weight: 500;
     margin: 150px auto 5px;
 }
+
+@media (max-width: 475px) {
+    .album__name {
+        width: 260px;
+        font-size: 13px;
+        margin-top: 120px;
+        margin-bottom: 4px;
+    }
+}

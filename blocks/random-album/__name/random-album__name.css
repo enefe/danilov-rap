@@ -4,3 +4,17 @@
     font-size: 17px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .random-album__name {
+        margin: 13px auto 4px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__name {
+        margin: 10px auto 3px;
+        font-size: 13px;
+    }
+}

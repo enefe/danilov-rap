@@ -17,3 +17,24 @@
     opacity: 0.5;
     color:blueviolet;
 }
+
+@media (max-width: 1024px) {
+    .random-album__button {
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .random-album__button {
+        height: 40px;
+        width: 110px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__button {
+        height: 35px;
+        width: 90px;
+    }
+}

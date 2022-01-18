@@ -7,5 +7,6 @@
     background-color: #323131;
     font-size: 100%;
     font-weight: normal;
-    min-width: 1280px;
+    margin: 0;
+    /* min-width: 1280px; */
 }

@@ -4,3 +4,15 @@
     font-size: 13px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .random-album__artist {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__artist {
+        font-size: 10px;
+    }
+}

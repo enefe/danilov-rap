@@ -1,5 +1,5 @@
 .album__image {
-    width: 340px;
+    max-width: 340px;
     border-radius: 2%;
     margin: 30px;
     transition: transform .3s ease;
@@ -7,4 +7,12 @@
 
 .album:hover .album__image {
     transform: scale(1.05);
+}
+
+@media (max-width: 475px) {
+    .album__image {
+        width: 260px;
+        height: 260px;
+        margin: 20px;
+    }
 }

@@ -3,4 +3,29 @@
     margin: auto;
     font-size: 25px;
     font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 1290px) {
+    .header__description {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__description {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 475px) {
+    .header__description {
+        font-size: 15px;
+    }
 }

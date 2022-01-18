@@ -11,3 +11,15 @@
     opacity: 0.5;
     color: blueviolet;
 }
+
+@media (max-width: 768px) {
+    .footer__link {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 475px) {
+    .footer__link {
+        font-size: 12px;
+    }
+}

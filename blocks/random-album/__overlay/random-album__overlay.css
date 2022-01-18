@@ -17,3 +17,21 @@
 .random-album__overlay:hover {
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .random-album__overlay {
+        top: 30px;
+        left: 30px;
+        height: 340px;
+        width: 340px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__overlay {
+        top: 20px;
+        left: 20px;
+        height: 260px;
+        width: 260px;
+    }
+}

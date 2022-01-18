@@ -1,7 +1,33 @@
 .footer__container {
     border-top: 1px solid rgba(0, 0, 0, .8);
-    width: 1280px;
+    max-width: 1280px;
     margin: 60px auto 0;
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 1280px) {
+    .footer__container {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer__container {
+        margin-top: 80px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 475px) {
+    .footer__container {
+        margin-top: 60px;
+        width: 300px;
+    }
 }

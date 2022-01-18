@@ -4,3 +4,15 @@
     font-weight: 500;
     color: rgba(0, 0, 0, .8);
 }
+
+@media (max-width: 768px) {
+    .footer__author {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 475px) {
+    .footer__author {
+        font-size: 12px;
+    }
+}

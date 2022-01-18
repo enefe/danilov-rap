@@ -4,3 +4,17 @@
     margin: auto;
     border-radius: 2%;
 }
+
+@media (max-width: 768px) {
+    .random-album__image {
+        height: 340px;
+        width: 340px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__image {
+        height: 260px;
+        width: 260px;
+    }
+}

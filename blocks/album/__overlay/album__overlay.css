@@ -15,3 +15,12 @@
     opacity: 1; 
     transform: scale(1.05);
 }
+
+@media (max-width: 475px) {
+    .album__overlay {
+        width: 260px;
+        height: 260px;
+        top: 20px;
+        left: 20px;
+    }
+}

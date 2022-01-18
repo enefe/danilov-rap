@@ -4,4 +4,32 @@
     /* color:#ff6666; */
     color: blueviolet;
     margin:  100px auto 50px;
+    text-align: center;
+}
+
+@media (max-width: 1290px) {
+    .random-album__title {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .random-album__title {
+        font-size: 50px;
+        margin:  80px auto 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .random-album__title {
+        font-size: 35px;
+        margin:  55px auto 30px;
+    }
+}
+
+@media (max-width: 475px) {
+    .random-album__title {
+        font-size: 25px;
+        margin:  35px auto 20px;
+    }
 }

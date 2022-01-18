@@ -1,10 +1,18 @@
 .album {
-    width: 400px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 40px;
     box-shadow: 0 0 5px blueviolet;
     position: relative;
+}
+
+@media (max-width: 475px) {
+    .album {
+        width: 300px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
 }
